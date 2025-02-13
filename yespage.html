@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thankyou for saying yes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bgMusic" autoplay loop>
+        <source src="diewithasmile.mp3" type="audio/mpeg">
+    </audio>
+    
+    <img src="yayie.gif">
+    <h1>Happy Valentines Day <br>I love you so much</h1>
+    <button id = "play"></button>
+    <script>
+        const bgMusic = document.getElementById("bgMusic");
+        const play = document.getElementById("play");
+            play.addEventListener("click", function () {
+                bgMusic.play(); // Start music when user clicks anywhere
+            })
+    </script>
+</body>
+</html>

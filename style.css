@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+    background-color:lightpink;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main {
+   padding-top: 5%;
+}
+#kiss {
+    width: 40%;
+}
+button {
+    height: 50px;
+    width: 100px;
+    margin:0 20px;
+    background-color:deeppink;
+    border: 0;
+    color: aliceblue;
+    font-size: large;
+}
+button:hover {
+    background-color: crimson;
+}
+
+#play {
+    height: 80px;
+    width: 120px;
+    background-image: url("image.png");
+    background-color: lightpink;
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
+#play:hover {
+    border: 2px solid white;
+    border-radius: 64px;
+}
